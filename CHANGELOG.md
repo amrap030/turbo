@@ -1,5 +1,12 @@
 
 
+## [0.3.0](https://github.com/amrap030/turbo/compare/v0.2.0...v0.3.0) (2023-05-19)
+
+
+### Features
+
+* use github actions bot ([b430020](https://github.com/amrap030/turbo/commit/b430020c80d21964e621d96e05c94596ce211c8f))
+
 ## [0.2.0](https://github.com/amrap030/turbo/compare/v0.1.0...v0.2.0) (2023-05-19)
 
 
