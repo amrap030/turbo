@@ -12,6 +12,10 @@ jobs:
           fetch-depth: 0
       - name: Install dependencies
         run: npm ci
+      - name: Configure git
+        run: |
+          git config user.name "inno-squad"
+          git config user.email "inno-squad@users.noreply.github.com"
       - name: Run release
         run: npm run release --ci
         env:
