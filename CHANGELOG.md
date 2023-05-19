@@ -1,5 +1,23 @@
 
 
+## [0.4.0](https://github.com/amrap030/turbo/compare/v0.3.0...v0.4.0) (2023-05-19)
+
+
+### Features
+
+* add sops for environment variables ([e51bbef](https://github.com/amrap030/turbo/commit/e51bbef5bcc8f39578356b8cbd6dfbe1bb8a8f67))
+
+
+### Bug Fixes
+
+* actions permissions ([d55e08b](https://github.com/amrap030/turbo/commit/d55e08b149ecf625f5e5bc3eeeafc61433e4bb3f))
+* actions permissions ([76749af](https://github.com/amrap030/turbo/commit/76749af4b6485b19b6b234386363c7ba1623c34b))
+* actions permissions ([809c588](https://github.com/amrap030/turbo/commit/809c5887ae0be141e09324642918b740209b9542))
+* actions permissions ([01a939c](https://github.com/amrap030/turbo/commit/01a939cbeb743091efb7da80a29bb5c13914cc4a))
+* actions permissions ([2681702](https://github.com/amrap030/turbo/commit/2681702c960adbe3c7cf72d3c93336a1681d11e3))
+* permissions for specific job ([a53e40e](https://github.com/amrap030/turbo/commit/a53e40e4273849a2c9139f055079184f13f72cc4))
+* permissions of release action ([a3ad9c2](https://github.com/amrap030/turbo/commit/a3ad9c2021a04e82b244e35b939357c25027f14a))
+
 ## [0.3.0](https://github.com/amrap030/turbo/compare/v0.2.0...v0.3.0) (2023-05-19)
 
 
