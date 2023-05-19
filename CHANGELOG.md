@@ -1,5 +1,16 @@
 
 
+## [0.5.0](https://github.com/amrap030/turbo/compare/v0.4.0...v0.5.0) (2023-05-19)
+
+
+### Features
+
+* add ci github action ([4b6e027](https://github.com/amrap030/turbo/commit/4b6e027d233b361f9a5ca0bbcac872671832a5ff))
+* add datree k8s policy scanner ([18967ca](https://github.com/amrap030/turbo/commit/18967cacb932b57c20adde58f3c555539fc4cf7a))
+* add terraform linter ([1f477ee](https://github.com/amrap030/turbo/commit/1f477eee750de930fa7380914913fb7f999c4ac4))
+* initialize terraform project ([ed7090d](https://github.com/amrap030/turbo/commit/ed7090d6a1c72409105177f4ad149499525cfe9d))
+* test ([0c6ae63](https://github.com/amrap030/turbo/commit/0c6ae6305deb9c497767cd92ca2c4ec0b2198ec6))
+
 ## [0.4.0](https://github.com/amrap030/turbo/compare/v0.3.0...v0.4.0) (2023-05-19)
 
 
