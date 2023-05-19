@@ -35,11 +35,10 @@ jobs:
         run: |
           git config user.name "inno-squad"
           git config user.email "inno-squad@users.noreply.github.com"
-          git config --global core.hooksPath /dev/null
       - name: Run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TYPE_ARG: ${{ fromJSON('{"auto":"", "patch":"--patch", "minor":"--minor", "major":"--major"}')[github.event.inputs.type] }}
           BETA_ARG: ${{ github.event.inputs.beta == 'true' && '--preRelease=beta' || '' }}
           DRY_ARG: ${{ github.event.inputs.dry == 'true' && '--dry-run' || '' }}
-        run: npm run release -- --ci --verbose $TYPE_ARG $BETA_ARG $DRY_ARG
+        run: npm run release -- --ci --verbose --git.commitArgs=--no-verify $TYPE_ARG $BETA_ARG $DRY_ARG
