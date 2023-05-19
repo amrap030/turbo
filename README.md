@@ -33,11 +33,11 @@
   - [Installation](#gear-installation)
   - [Running Tests](#test_tube-running-tests)
   - [Run Locally](#running-run-locally)
-- [Usage](#eyes-usage)
-- [Changelog](#changelog)
-- [Contributing](#wave-contributing)
-- [Code Contributors](#code-contributers)
-- [License](#warning-license)
+- [Usage](#rocket-usage)
+- [Changelog](#chart_with_upwards_trend-changelog)
+- [Contributing](#handshake-contributing)
+- [Code Contributors](#muscle-code-contributers)
+- [License](#memo-license)
 
 <!-- About the Project -->
 
