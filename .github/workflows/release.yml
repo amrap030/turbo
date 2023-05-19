@@ -21,12 +21,13 @@ on:
         description: Dry release
         default: false
 
-permissions:
-  actions: write
+permissions: read-all
 
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
     steps:
       - name: Checkout source code
         uses: actions/checkout@v3
