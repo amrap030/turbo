@@ -36,7 +36,7 @@
 - [Usage](#rocket-usage)
 - [Changelog](#chart_with_upwards_trend-changelog)
 - [Contributing](#handshake-contributing)
-- [Code Contributors](#muscle-code-contributers)
+- [Code Contributors](#muscle-code-contributors)
 - [License](#memo-license)
 
 <!-- About the Project -->
