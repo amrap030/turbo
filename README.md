@@ -1,81 +1,149 @@
-# Turborepo starter
+<div align="center">
 
-This is an official starter Turborepo.
+<p>
+    A K8s cluster on the Lightning Cloud! 
+</p>
 
-## Using this example
+<p>
+  <a href="http://commitizen.github.io/cz-cli/">
+    <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" alt="commitizen-friendly" />
+  </a>
+</p>
 
-Run the following command:
+<h4>
+    <a href="#">View Demo</a>
+    <span> · </span>
+    <a href="#">Documentation</a>
+    <span> · </span>
+    <a href="#">Report Bug</a>
+    <span> · </span>
+    <a href="#">Request Feature</a>
+</h4>
+</div>
 
-```sh
-npx create-turbo@latest
+<br />
+
+<!-- Table of Contents -->
+
+# :notebook_with_decorative_cover: Table of Contents
+
+- [About the Project](#star2-about-the-project)
+- [Getting Started](#toolbox-getting-started)
+  - [Prerequisites](#bangbang-prerequisites)
+  - [Installation](#gear-installation)
+  - [Running Tests](#test_tube-running-tests)
+  - [Run Locally](#running-run-locally)
+- [Usage](#eyes-usage)
+- [Changelog](#changelog)
+- [Contributing](#wave-contributing)
+- [Code Contributors](#code-contributers)
+- [License](#warning-license)
+
+<!-- About the Project -->
+
+## :star2: About the Project
+
+...
+
+<!-- Getting Started -->
+
+## :toolbox: Getting Started
+
+Luckily, it's incredibly easy to start.
+
+<!-- Prerequisites -->
+
+### :bangbang: Prerequisites
+
+This project uses npm as package manager
+
+```bash
+ npm install --global yarn
 ```
 
-## What's inside?
+<!-- Installation -->
 
-This Turborepo includes the following packages/apps:
+### :gear: Installation
 
-### Apps and Packages
+Install my-project with npm
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
+```bash
+git clone my-project
+cd my-project
+npm install
 ```
 
-### Develop
+<!-- Running Tests -->
 
-To develop all apps and packages, run the following command:
+### :test_tube: Running Tests
 
-```
-cd my-turborepo
-pnpm dev
-```
+To run tests, run the following command.
 
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
+```bash
+npm run test
 ```
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+<!-- Run Locally -->
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+### :running: Run Locally
 
+Clone the project
+
+```bash
+git clone my-project
 ```
-npx turbo link
+
+Go to the project directory
+
+```bash
+cd my-project
 ```
 
-## Useful Links
+Install dependencies
 
-Learn more about the power of Turborepo:
+```bash
+npm install
+```
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+Start the server
+
+```bash
+npm run dev
+```
+
+## :rocket: Usage
+
+## :chart_with_upwards_trend: Changelog
+
+Please see our [releases](https://github.com/.../releases) page for more information on what has changed recently.
+
+## :handshake: Contributing
+
+Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
+
+## :muscle: Code Contributors
+
+<a href = "https://github.com/amrap030/turbo/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=amrap030/turbo"/>
+</a>
+
+## :memo: License
+
+Copyright © 2023 [Innovation Squad](https://github.com/...).<br />
+This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed. Please see [LICENSE](LICENSE.md) for more information.
+
+---
+
+Made with ❤️
+
+<!-- Badges -->
+
+[npm-version-src]: https://img.shields.io/npm/v/@ow3/dummy-ts-pkg?style=flat-square
+[npm-version-href]: https://npmjs.com/package/@ow3/dummy-ts-pkg
+[npm-downloads-src]: https://img.shields.io/npm/dm/@ow3/dummy-ts-pkg?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/@ow3/dummy-ts-pkg
+[github-actions-src]: https://img.shields.io/github/workflow/status/openwebstacks/ts-starter/CI/main?style=flat-square
+[github-actions-href]: https://github.com/openwebstacks/ts-starter/actions?query=workflow%3Aci
+
+<!-- [codecov-src]: https://img.shields.io/codecov/c/gh/openwebstacks/ts-starter/main?style=flat-square
+[codecov-href]: https://codecov.io/gh/openwebstacks/ts-starter -->
