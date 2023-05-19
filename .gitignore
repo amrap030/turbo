@@ -35,5 +35,5 @@ yarn-error.log*
 # vercel
 .vercel
 
-.dist
-.dist2
+# terraform
+.terraform
