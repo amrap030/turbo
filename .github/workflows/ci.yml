@@ -3,10 +3,14 @@ name: Continuous Integration
 on:
   push:
     branches: "**"
+    # branches: [ main ]
   pull_request:
     branches: "**"
 
 permissions: read-all
+
+env:
+  DATREE_TOKEN: ${{ secrets.DATREE_TOKEN }}
 
 jobs:
   tflint:
@@ -54,3 +58,14 @@ jobs:
       - name: Execute Checkov
         run: |
           docker run --tty --rm --volume ${{ github.workspace }}:/tf --workdir /tf bridgecrew/checkov --directory /tf --config-file .checkov.yaml
+  datree:
+    runs-on: ubuntu-latest
+    name: Datree K8s Scanner
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Execute Datree policy check
+        uses: datreeio/action-datree@main
+        with:
+          path: "**/*.yaml"
+          cliArguments: "--only-k8s-files"

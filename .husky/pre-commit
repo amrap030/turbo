@@ -21,9 +21,9 @@ then
     done
 fi
 
-if command -v tflint &> /dev/null
-then
-    if [ -d "./infrastructure" ]; then
-        tflint -f compact --recursive
-    fi
-fi
+# if command -v tflint &> /dev/null
+# then
+#     if [ -d "./infrastructure" ]; then
+#         tflint -f compact --recursive
+#     fi
+# fi
