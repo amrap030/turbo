@@ -33,8 +33,8 @@ jobs:
         run: HUSKY=0 npm ci
       - name: Configure git
         run: |
-          git config user.name "inno-squad"
-          git config user.email "inno-squad@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
       - name: Run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
