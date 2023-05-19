@@ -2,3 +2,28 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npx lint-staged --concurrent false
+
+if command -v terraform &> /dev/null
+then
+    files=$(git diff --cached --name-only)
+    for f in $files
+    do
+    if [ -e "$f" ] && [[ $f == *.tf ]]; then
+        terraform fmt -check=true $f > /dev/null || {
+            echo "pre-hook: Incorrect formatting, let me fix this for you"
+            cmd="terraform fmt -recursive"
+            echo "Running '$cmd'..."
+            $cmd
+            echo "Done. You may now stage changes."
+            git add $f
+        }
+    fi
+    done
+fi
+
+if command -v tflint &> /dev/null
+then
+    if [ -d "./infrastructure" ]; then
+        tflint -f compact --recursive
+    fi
+fi
